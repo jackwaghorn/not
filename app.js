@@ -59,15 +59,15 @@ function pageChanger(i) {
     if (color === "grey") {
       pageOverlay.innerHTML = `
       <div class="area">
-      <div class="instagram2"><img src="img/plan_instagram.png" alt="">
+      <div class="instagram2"><img src="img/plan_instagram-small.png" data-src="img/plan_instagram.png" class="lazyload" alt="">
       </div>
-      <div class="backbtn"><img src="img/not.png" alt="">Back to concept model</div>
+      <div class="backbtn"><img src="img/not-small.png" data-src="img/not.png" class="lazyload" alt="">Back to concept model</div>
       </div>
     <div class="wrap">
         <div class="layoutplans">
-          <div class="layout_ground"><img src="img/plan_ground.jpg" alt="">
+          <div class="layout_ground"><img src="img/plan_ground-small.jpg" data-src="img/plan_ground.jpg" class="lazyload" alt="">
           </div>
-          <div class="layout_mezz"><img src="img/plan_mezz.jpg" alt="">
+          <div class="layout_mezz"><img src="img/plan_mezz-small.jpg" data-src="img/plan_mezz.jpg" class="lazyload" alt="">
           </div>
         </div>
         
@@ -78,22 +78,22 @@ function pageChanger(i) {
       let title = i.textContent;
       pageOverlay.innerHTML = `
     <div class="area">
-    <div class="backbtn"><img src="img/not.png" alt="">Back to concept model</div>
+    <div class="backbtn"><img data-src="img/not.png" class="lazyload" alt="">Back to concept model</div>
       </div>
-        <div class="instagram"><img src="img/${color}/${color}_instagram.png" alt=""></div>
-        <div class="moodboard"><img src="img/${color}/${color}_moodboard.png" alt=""></div>
-        <div class="wireframe"><img src="img/${color}/${color}_wireframe.png" alt=""></div>
+        <div class="instagram"><img src="img/${color}/${color}_instagram-small.png" data-src="img/${color}/${color}_instagram.png" class="lazyload" alt=""></div>
+        <div class="moodboard"><img src="img/${color}/${color}_moodboard-small.png" data-src="img/${color}/${color}_moodboard.png" class="lazyload" alt=""></div>
+        <div class="wireframe"><img src="img/${color}/${color}_wireframe-small.jpg" data-src="img/${color}/${color}_wireframe.jpg" class="lazyload" alt=""></div>
     </div>
     `;
     } else {
       let title = i.textContent;
       pageOverlay.innerHTML = `
     <div class="area">
-    <div class="backbtn"><img src="img/not.png" alt="">Back to concept model</div>
+    <div class="backbtn"><img data-src="img/not.png" class="lazyload" alt="">Back to concept model</div>
       </div>
-        <div class="instagram2"><img src="img/${color}/${color}_instagram.png" alt=""></div>
-        <div class="moodboard"><img src="img/${color}/${color}_moodboard.png" alt=""></div>
-        <div class="wireframe"><img src="img/${color}/${color}_wireframe.png" alt=""></div>
+        <div class="instagram2"><img src="img/${color}/${color}_instagram-small.png" data-src="img/${color}/${color}_instagram.png" class="lazyload" alt=""></div>
+        <div class="moodboard"><img src="img/${color}/${color}_moodboard-small.png" data-src="img/${color}/${color}_moodboard.png" class="lazyload" alt=""></div>
+        <div class="wireframe"><img src="img/${color}/${color}_wireframe-small.jpg" data-src="img/${color}/${color}_wireframe.jpg" class="lazyload" alt=""></div>
     </div>
     `;
     }

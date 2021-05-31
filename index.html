@@ -20,8 +20,8 @@
   <!-- Moodboard overlay -->
 
   <div class="loader">
-      <img style="width:30%" src="img/logo.png" alt="">
-    <img style="left:0;float:left; position: absolute; max-height:100%;" src="img/shapes.jpg" alt="">
+      <img style="width:30%" src="img/logo-small.jpg" data-src="img/logo.jpg"  class="lazyload" alt="">
+    <img style="left:0;float:left; position: absolute; max-height:100%;" src="img/shapes-small.jpg" data-src="img/shapes.jpg" class="lazyload" alt="">
 </div>
   
   <div id="pageOverlay"></div>
@@ -29,7 +29,7 @@
 
 
     <div id="blur" >
-<div class="background"><img src="img/isometric.jpg" alt=""></div>
+<div class="background"><img src="img/isometric-small.jpg" data-src="img/isometric.jpg" class="lazyload" alt=""></div>
         <h3>Concept model</h3>
 
 <!-- 3d Model diagram -->
@@ -46,7 +46,7 @@
         <div id="pink" class="dot pink pink_position dot_resize"></div>
         <div id="grey" class="dot grey grey_position dot_resize"></div>
     </div>
-    <img src="img/diagram.png" alt="">
+    <img src="img/diagram-small.png" data-src="img/diagram.png" class="lazyload" alt="">
     <div class="circle">Click on the Dots to explore</div>
 </div>
 </div>
@@ -61,6 +61,7 @@
 
 <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 <script src="jq-blureffect.js"></script>
+<script src="lazysizes.min.js" async=""></script>
 
     <script src="app.js"></script>
 
