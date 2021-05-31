@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOT | Interactive moodboard</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  
+  <!-- Moodboard overlay -->
+
+  <div class="loader">
+      <img style="width:30%" src="img/logo.png" alt="">
+    <img style="left:0;float:left; position: absolute; max-height:100%;" src="img/shapes.jpg" alt="">
+</div>
+  
+  <div id="pageOverlay"></div>
+
+
+
+    <div id="blur" >
+<div class="background"><img src="img/isometric.jpg" alt=""></div>
+        <h3>Concept model</h3>
+
+<!-- 3d Model diagram -->
+<div class="wrap">
+<div  class="container">
+    
+    <div class="overlay">
+        <div id="red" class="dot red red_position dot_resize"></div>
+        <div id="green" class="dot green green_position dot_resize"></div>
+        <div id="teal" class="dot teal teal_position dot_resize"></div>
+        <div id="yellow" class="dot yellow yellow_position dot_resize"></div>
+        <div id="orange" class="dot orange orange_position dot_resize"></div>
+        <div id="blue" class="dot blue blue_position dot_resize"></div>
+        <div id="pink" class="dot pink pink_position dot_resize"></div>
+        <div id="grey" class="dot grey grey_position dot_resize"></div>
+    </div>
+    <img src="img/diagram.png" alt="">
+    <div class="circle">Click on the Dots to explore</div>
+</div>
+</div>
+   
+<!-- List key -->
+<ul id="list-key">
+    KEY
+</ul>
+
+
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script src="jq-blureffect.js"></script>
+
+    <script src="app.js"></script>
+
+
+
+    
+</body>
+</html>
